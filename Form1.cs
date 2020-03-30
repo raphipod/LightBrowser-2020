@@ -71,10 +71,5 @@ namespace LightBrowser_2020
         {
             browser.Load("www.youtube.com");
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            browser.Load("www.twitch.tv");
-        }
     }
 }
