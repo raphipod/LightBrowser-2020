@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightBrowser 2020", "LightBrowser 2020.csproj", "{5B10ED5B-E8B0-4919-905C-A144012A1F4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BFA6E4FF-442A-4271-900B-AEC5910A9A6D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B10ED5B-E8B0-4919-905C-A144012A1F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B10ED5B-E8B0-4919-905C-A144012A1F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B10ED5B-E8B0-4919-905C-A144012A1F4F}.Debug|x86.ActiveCfg = Debug|x86
+		{5B10ED5B-E8B0-4919-905C-A144012A1F4F}.Debug|x86.Build.0 = Debug|x86
+		{5B10ED5B-E8B0-4919-905C-A144012A1F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B10ED5B-E8B0-4919-905C-A144012A1F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B10ED5B-E8B0-4919-905C-A144012A1F4F}.Release|x86.ActiveCfg = Release|x86
+		{5B10ED5B-E8B0-4919-905C-A144012A1F4F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72B45A3D-0797-4774-9241-60218131FEA4}
+	EndGlobalSection
+EndGlobal

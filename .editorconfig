@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# IDE0004: Nicht erforderliche Umwandlung entfernen
+dotnet_diagnostic.IDE0004.severity = none
