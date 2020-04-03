@@ -100,9 +100,9 @@ namespace LightBrowser_2020
             // 
             // btnReload
             // 
-            this.btnReload.Location = new System.Drawing.Point(52, 14);
+            this.btnReload.Location = new System.Drawing.Point(52, 16);
             this.btnReload.Name = "btnReload";
-            this.btnReload.Size = new System.Drawing.Size(16, 31);
+            this.btnReload.Size = new System.Drawing.Size(15, 26);
             this.btnReload.TabIndex = 6;
             this.btnReload.Text = "R";
             this.btnReload.UseVisualStyleBackColor = true;
@@ -176,7 +176,7 @@ namespace LightBrowser_2020
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = " LightBrowser 2020.03.01";
+            this.Text = " LightBrowser 2020.04";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
