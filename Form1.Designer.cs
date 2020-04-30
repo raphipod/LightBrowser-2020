@@ -37,33 +37,40 @@ namespace LightBrowser_2020
             this.btnBack = new System.Windows.Forms.Button();
             this.btnFwd = new System.Windows.Forms.Button();
             this.btnReload = new System.Windows.Forms.Button();
-            this.btnGoogle = new System.Windows.Forms.Button();
-            this.btnEcosia = new System.Windows.Forms.Button();
-            this.btnYouTube = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(112, 7);
+            this.textBox1.BackColor = System.Drawing.Color.White;
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox1.Location = new System.Drawing.Point(132, 4);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(844, 22);
+            this.textBox1.Size = new System.Drawing.Size(824, 22);
             this.textBox1.TabIndex = 0;
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1KeyPress);
             // 
             // btnSearch
             // 
             this.btnSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSearch.Location = new System.Drawing.Point(964, 6);
+            this.btnSearch.BackColor = System.Drawing.SystemColors.Control;
+            this.btnSearch.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSearch.Location = new System.Drawing.Point(964, 4);
             this.btnSearch.Margin = new System.Windows.Forms.Padding(4);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(90, 47);
+            this.btnSearch.Size = new System.Drawing.Size(90, 22);
             this.btnSearch.TabIndex = 1;
-            this.btnSearch.Text = "Go!";
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = false;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // pContainer
@@ -72,89 +79,110 @@ namespace LightBrowser_2020
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pContainer.AutoSize = true;
-            this.pContainer.Location = new System.Drawing.Point(-1, 55);
+            this.pContainer.Location = new System.Drawing.Point(30, 28);
             this.pContainer.Margin = new System.Windows.Forms.Padding(4);
             this.pContainer.Name = "pContainer";
-            this.pContainer.Size = new System.Drawing.Size(1068, 501);
+            this.pContainer.Size = new System.Drawing.Size(1037, 528);
             this.pContainer.TabIndex = 2;
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(13, 6);
+            this.btnBack.BackColor = System.Drawing.Color.Silver;
+            this.btnBack.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnBack.Location = new System.Drawing.Point(33, 4);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(33, 47);
+            this.btnBack.Size = new System.Drawing.Size(33, 22);
             this.btnBack.TabIndex = 3;
             this.btnBack.Text = "<";
-            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // btnFwd
             // 
-            this.btnFwd.Location = new System.Drawing.Point(73, 6);
+            this.btnFwd.BackColor = System.Drawing.Color.Silver;
+            this.btnFwd.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnFwd.Location = new System.Drawing.Point(96, 4);
             this.btnFwd.Name = "btnFwd";
-            this.btnFwd.Size = new System.Drawing.Size(32, 47);
+            this.btnFwd.Size = new System.Drawing.Size(32, 22);
             this.btnFwd.TabIndex = 4;
             this.btnFwd.Text = ">";
-            this.btnFwd.UseVisualStyleBackColor = true;
+            this.btnFwd.UseVisualStyleBackColor = false;
             this.btnFwd.Click += new System.EventHandler(this.btnFwd_Click);
             // 
             // btnReload
             // 
-            this.btnReload.Location = new System.Drawing.Point(52, 16);
+            this.btnReload.BackColor = System.Drawing.Color.Silver;
+            this.btnReload.Location = new System.Drawing.Point(72, 4);
             this.btnReload.Name = "btnReload";
-            this.btnReload.Size = new System.Drawing.Size(15, 26);
+            this.btnReload.Size = new System.Drawing.Size(18, 22);
             this.btnReload.TabIndex = 6;
             this.btnReload.Text = "R";
-            this.btnReload.UseVisualStyleBackColor = true;
+            this.btnReload.UseVisualStyleBackColor = false;
             this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
             // 
-            // btnGoogle
+            // toolStrip1
             // 
-            this.btnGoogle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnGoogle.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnGoogle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.7F);
-            this.btnGoogle.Location = new System.Drawing.Point(881, 29);
-            this.btnGoogle.Name = "btnGoogle";
-            this.btnGoogle.Size = new System.Drawing.Size(75, 24);
-            this.btnGoogle.TabIndex = 7;
-            this.btnGoogle.Text = "Google";
-            this.btnGoogle.UseVisualStyleBackColor = false;
-            this.btnGoogle.Click += new System.EventHandler(this.btnGoogle_Click);
+            this.toolStrip1.BackColor = System.Drawing.Color.Silver;
+            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton1,
+            this.toolStripButton2,
+            this.toolStripSeparator1,
+            this.toolStripButton3,
+            this.toolStripButton4});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(30, 554);
+            this.toolStrip1.TabIndex = 11;
+            this.toolStrip1.Text = "toolStrip1";
             // 
-            // btnEcosia
+            // toolStripButton1
             // 
-            this.btnEcosia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEcosia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnEcosia.Location = new System.Drawing.Point(800, 29);
-            this.btnEcosia.Name = "btnEcosia";
-            this.btnEcosia.Size = new System.Drawing.Size(75, 24);
-            this.btnEcosia.TabIndex = 8;
-            this.btnEcosia.Text = "Ecosia";
-            this.btnEcosia.UseVisualStyleBackColor = false;
-            this.btnEcosia.Click += new System.EventHandler(this.btnEcosia_Click);
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(27, 24);
+            this.toolStripButton1.Text = "YouTube";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
-            // btnYouTube
+            // toolStripButton2
             // 
-            this.btnYouTube.BackColor = System.Drawing.Color.Red;
-            this.btnYouTube.ForeColor = System.Drawing.Color.Black;
-            this.btnYouTube.Location = new System.Drawing.Point(112, 29);
-            this.btnYouTube.Name = "btnYouTube";
-            this.btnYouTube.Size = new System.Drawing.Size(75, 24);
-            this.btnYouTube.TabIndex = 9;
-            this.btnYouTube.Text = "YouTube";
-            this.btnYouTube.UseVisualStyleBackColor = false;
-            this.btnYouTube.Click += new System.EventHandler(this.btnYouTube_Click);
+            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(37, 24);
+            this.toolStripButton2.Text = "Wikipedia";
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
-            // button1
+            // toolStripButton3
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(193, 29);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(78, 24);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Wikipedia";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(37, 24);
+            this.toolStripButton3.Text = "Google";
+            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
+            // 
+            // toolStripButton4
+            // 
+            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
+            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton4.Name = "toolStripButton4";
+            this.toolStripButton4.Size = new System.Drawing.Size(37, 24);
+            this.toolStripButton4.Text = "Ecosia";
+            this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.toolStripSeparator1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(37, 6);
             // 
             // Form1
             // 
@@ -162,10 +190,7 @@ namespace LightBrowser_2020
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnYouTube);
-            this.Controls.Add(this.btnEcosia);
-            this.Controls.Add(this.btnGoogle);
+            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.btnReload);
             this.Controls.Add(this.btnFwd);
             this.Controls.Add(this.btnBack);
@@ -176,9 +201,11 @@ namespace LightBrowser_2020
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = " LightBrowser 2020.04.01";
+            this.Text = " LightBrowser 2020.05";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -193,10 +220,12 @@ namespace LightBrowser_2020
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnFwd;
         private System.Windows.Forms.Button btnReload;
-        private System.Windows.Forms.Button btnGoogle;
-        private System.Windows.Forms.Button btnEcosia;
-        private System.Windows.Forms.Button btnYouTube;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripButton toolStripButton2;
+        private System.Windows.Forms.ToolStripButton toolStripButton3;
+        private System.Windows.Forms.ToolStripButton toolStripButton4;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
     }
 }
 

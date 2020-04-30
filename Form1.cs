@@ -58,25 +58,24 @@ namespace LightBrowser_2020
         {
             browser.Reload();
         }
-
-        private void btnGoogle_Click(object sender, EventArgs e)
+        private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            browser.Load("www.google.com");
+            browser.Load("www.youtube.com");
         }
 
-        private void btnEcosia_Click(object sender, EventArgs e)
-        {
-            browser.Load("www.ecosia.com");
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void toolStripButton2_Click(object sender, EventArgs e)
         {
             browser.Load("www.wikipedia.com");
         }
 
-        private void btnYouTube_Click(object sender, EventArgs e)
+        private void toolStripButton3_Click(object sender, EventArgs e)
         {
-            browser.Load("www.youtube.com");
+            browser.Load("www.google.com");
+        }
+
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            browser.Load("www.ecosia.org");
         }
     }
 }
