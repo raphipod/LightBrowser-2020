@@ -14,12 +14,19 @@ namespace LightBrowser_2020
         ChromiumWebBrowser browser;
 
         public ChromiumWebBrowser AddressChanged { get; private set; }
+        public BrowserSettings BrowserSettings { get; private set; }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             browser = new ChromiumWebBrowser(textBox1.Text);
             browser.Dock = DockStyle.Fill;
             this.pContainer.Controls.Add(browser);
+
+            BrowserSettings = new BrowserSettings()
+            {
+                Javascript = CefState.Enabled,
+                WebGl = CefState.Enabled,
+            };
         }
 
         private void btnSearch_Click(object sender, EventArgs e)

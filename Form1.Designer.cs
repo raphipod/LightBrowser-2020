@@ -60,7 +60,7 @@ namespace LightBrowser_2020
             this.btnSearch.Location = new System.Drawing.Point(964, 6);
             this.btnSearch.Margin = new System.Windows.Forms.Padding(4);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(90, 53);
+            this.btnSearch.Size = new System.Drawing.Size(90, 47);
             this.btnSearch.TabIndex = 1;
             this.btnSearch.Text = "Go!";
             this.btnSearch.UseVisualStyleBackColor = true;
