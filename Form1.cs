@@ -29,12 +29,6 @@ namespace LightBrowser_2020
             };
         }
 
-        private void btnSearch_Click(object sender, EventArgs e)
-        {
-            browser.Load(textBox1.Text);
-        }
-
-
         private void textBox1KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)13)
@@ -76,6 +70,16 @@ namespace LightBrowser_2020
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
             browser.Load("www.ecosia.org");
+        }
+
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            browser.ViewSource();
+        }
+
+        private void printToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            browser.Print();
         }
     }
 }
