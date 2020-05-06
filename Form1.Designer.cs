@@ -59,7 +59,7 @@ namespace LightBrowser_2020
             this.textBox1.Location = new System.Drawing.Point(135, 4);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(919, 29);
+            this.textBox1.Size = new System.Drawing.Size(932, 29);
             this.textBox1.TabIndex = 0;
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1KeyPress);
             // 
