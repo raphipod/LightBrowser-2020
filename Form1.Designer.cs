@@ -56,10 +56,10 @@ namespace LightBrowser_2020
             this.textBox1.BackColor = System.Drawing.Color.White;
             this.textBox1.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textBox1.Location = new System.Drawing.Point(135, 4);
+            this.textBox1.Location = new System.Drawing.Point(148, 5);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(932, 29);
+            this.textBox1.Size = new System.Drawing.Size(906, 29);
             this.textBox1.TabIndex = 0;
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1KeyPress);
             // 
@@ -79,9 +79,9 @@ namespace LightBrowser_2020
             // 
             this.btnBack.BackColor = System.Drawing.Color.Silver;
             this.btnBack.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnBack.Location = new System.Drawing.Point(38, 4);
+            this.btnBack.Location = new System.Drawing.Point(38, 5);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(33, 30);
+            this.btnBack.Size = new System.Drawing.Size(33, 29);
             this.btnBack.TabIndex = 3;
             this.btnBack.Text = "<";
             this.btnBack.UseVisualStyleBackColor = false;
@@ -91,9 +91,9 @@ namespace LightBrowser_2020
             // 
             this.btnFwd.BackColor = System.Drawing.Color.Silver;
             this.btnFwd.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnFwd.Location = new System.Drawing.Point(96, 4);
+            this.btnFwd.Location = new System.Drawing.Point(109, 5);
             this.btnFwd.Name = "btnFwd";
-            this.btnFwd.Size = new System.Drawing.Size(32, 30);
+            this.btnFwd.Size = new System.Drawing.Size(32, 29);
             this.btnFwd.TabIndex = 4;
             this.btnFwd.Text = ">";
             this.btnFwd.UseVisualStyleBackColor = false;
@@ -102,9 +102,9 @@ namespace LightBrowser_2020
             // btnReload
             // 
             this.btnReload.BackColor = System.Drawing.Color.Silver;
-            this.btnReload.Location = new System.Drawing.Point(72, 4);
+            this.btnReload.Location = new System.Drawing.Point(77, 5);
             this.btnReload.Name = "btnReload";
-            this.btnReload.Size = new System.Drawing.Size(18, 30);
+            this.btnReload.Size = new System.Drawing.Size(26, 29);
             this.btnReload.TabIndex = 6;
             this.btnReload.Text = "R";
             this.btnReload.UseVisualStyleBackColor = false;
