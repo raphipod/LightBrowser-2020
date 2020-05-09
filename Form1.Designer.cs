@@ -56,10 +56,10 @@ namespace LightBrowser_2020
             this.textBox1.BackColor = System.Drawing.Color.White;
             this.textBox1.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textBox1.Location = new System.Drawing.Point(148, 5);
+            this.textBox1.Location = new System.Drawing.Point(159, 4);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(906, 29);
+            this.textBox1.Size = new System.Drawing.Size(895, 29);
             this.textBox1.TabIndex = 0;
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1KeyPress);
             // 
@@ -78,33 +78,35 @@ namespace LightBrowser_2020
             // btnBack
             // 
             this.btnBack.BackColor = System.Drawing.Color.Silver;
-            this.btnBack.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnBack.Location = new System.Drawing.Point(38, 5);
+            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.ForeColor = System.Drawing.Color.Transparent;
+            this.btnBack.Image = ((System.Drawing.Image)(resources.GetObject("btnBack.Image")));
+            this.btnBack.Location = new System.Drawing.Point(38, 0);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(33, 29);
+            this.btnBack.Size = new System.Drawing.Size(44, 41);
             this.btnBack.TabIndex = 3;
-            this.btnBack.Text = "<";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // btnFwd
             // 
             this.btnFwd.BackColor = System.Drawing.Color.Silver;
-            this.btnFwd.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnFwd.Location = new System.Drawing.Point(109, 5);
+            this.btnFwd.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFwd.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.btnFwd.Image = ((System.Drawing.Image)(resources.GetObject("btnFwd.Image")));
+            this.btnFwd.Location = new System.Drawing.Point(88, 0);
             this.btnFwd.Name = "btnFwd";
-            this.btnFwd.Size = new System.Drawing.Size(32, 29);
+            this.btnFwd.Size = new System.Drawing.Size(43, 41);
             this.btnFwd.TabIndex = 4;
-            this.btnFwd.Text = ">";
             this.btnFwd.UseVisualStyleBackColor = false;
             this.btnFwd.Click += new System.EventHandler(this.btnFwd_Click);
             // 
             // btnReload
             // 
             this.btnReload.BackColor = System.Drawing.Color.Silver;
-            this.btnReload.Location = new System.Drawing.Point(77, 5);
+            this.btnReload.Location = new System.Drawing.Point(137, 4);
             this.btnReload.Name = "btnReload";
-            this.btnReload.Size = new System.Drawing.Size(26, 29);
+            this.btnReload.Size = new System.Drawing.Size(25, 29);
             this.btnReload.TabIndex = 6;
             this.btnReload.Text = "R";
             this.btnReload.UseVisualStyleBackColor = false;
@@ -145,7 +147,7 @@ namespace LightBrowser_2020
             this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(37, 24);
+            this.toolStripButton2.Size = new System.Drawing.Size(32, 24);
             this.toolStripButton2.Text = "Wikipedia";
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
@@ -154,7 +156,7 @@ namespace LightBrowser_2020
             this.toolStripSeparator1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.toolStripSeparator1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(37, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(32, 6);
             // 
             // toolStripButton3
             // 
@@ -162,7 +164,7 @@ namespace LightBrowser_2020
             this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
             this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(37, 24);
+            this.toolStripButton3.Size = new System.Drawing.Size(32, 24);
             this.toolStripButton3.Text = "Google";
             this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
@@ -172,14 +174,14 @@ namespace LightBrowser_2020
             this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
             this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(37, 24);
+            this.toolStripButton4.Size = new System.Drawing.Size(32, 24);
             this.toolStripButton4.Text = "Ecosia";
             this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(37, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(32, 6);
             // 
             // toolStripDropDownButton1
             // 
@@ -190,7 +192,7 @@ namespace LightBrowser_2020
             this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(37, 24);
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(32, 24);
             this.toolStripDropDownButton1.Text = "Page";
             // 
             // saveToolStripMenuItem

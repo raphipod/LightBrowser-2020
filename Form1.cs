@@ -20,11 +20,12 @@ namespace LightBrowser_2020
         {
             browser = new ChromiumWebBrowser(textBox1.Text);
             browser.Dock = DockStyle.Fill;
+            browser.Load("google.com");
             this.pContainer.Controls.Add(browser);
 
             BrowserSettings = new BrowserSettings()
             {
-                Javascript = CefState.Enabled,
+                Javascript = CefState.Enabled,  
                 WebGl = CefState.Enabled,
             };
         }
