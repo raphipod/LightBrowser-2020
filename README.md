@@ -23,7 +23,7 @@ to render the webpage. Without it, this project would've been impossible.
 
 * **Processor:** Intel Core 2 Duo or AMD Athlon 64 (dual core), anything newer is fine.
 * **RAM:** 512 MB to 1 GB
-* **Disk space:** 100 MB
+* **Disk space:** ~ 200 MB
 * **32-bit** operating system
 
 # Who should use this browser?
