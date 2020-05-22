@@ -2,12 +2,14 @@
 using System.Windows.Forms;
 using CefSharp.WinForms;
 using CefSharp;
+using CefSharp.Example;
+using CefSharp.Example.Handlers;
 
 namespace LightBrowser_2020
 {
-    public partial class Form1 : Form
+    public partial class MainWindow : Form
     {
-        public Form1()
+        public MainWindow()
         {
             InitializeComponent();
         }
@@ -21,6 +23,7 @@ namespace LightBrowser_2020
             browser = new ChromiumWebBrowser(textBox1.Text);
             browser.Dock = DockStyle.Fill;
             browser.Load("google.com");
+            browser.DownloadHandler = new DownloadHandler();
             this.pContainer.Controls.Add(browser);
 
             BrowserSettings = new BrowserSettings()
@@ -82,5 +85,46 @@ namespace LightBrowser_2020
         {
             browser.Print();
         }
+
+        private void testToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            browser.SetZoomLevel(1);
+        }
+
+        private void zoomLevel1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            browser.SetZoomLevel(1);
+        }
+
+        private void zoomLevel2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            browser.SetZoomLevel(2);
+        }
+
+        private void zoomLevel3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            browser.SetZoomLevel(3);
+        }
+
+        private void zoomLevel05ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            browser.SetZoomLevel(0.5);
+        }
+
+        private void revertToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            browser.SetZoomLevel(0.0);
+        }
+
+        private void toolStripButton5_Click(object sender, EventArgs e)
+        {
+            browser.Load("www.startpage.com");
+        }
+
+        private void toolStripButton6_Click(object sender, EventArgs e)
+        {
+            browser.Load("www.duckduckgo.com");
+        }
+
     }
 }

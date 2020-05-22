@@ -2,7 +2,7 @@
 
 namespace LightBrowser_2020
 {
-    partial class Form1
+    partial class MainWindow
     {
         /// <summary>
         /// Erforderliche Designervariable.
@@ -30,7 +30,7 @@ namespace LightBrowser_2020
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pContainer = new System.Windows.Forms.Panel();
             this.btnBack = new System.Windows.Forms.Button();
@@ -41,11 +41,19 @@ namespace LightBrowser_2020
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.printToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
+            this.revertToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.zoomLevel05ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.zoomLevel1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.zoomLevel2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.zoomLevel3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -122,12 +130,15 @@ namespace LightBrowser_2020
             this.toolStripButton2,
             this.toolStripSeparator1,
             this.toolStripButton3,
+            this.toolStripButton5,
+            this.toolStripButton6,
             this.toolStripButton4,
             this.toolStripSeparator2,
-            this.toolStripDropDownButton1});
+            this.toolStripDropDownButton1,
+            this.toolStripSplitButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(35, 554);
+            this.toolStrip1.Size = new System.Drawing.Size(40, 554);
             this.toolStrip1.TabIndex = 11;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -137,7 +148,7 @@ namespace LightBrowser_2020
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(32, 24);
+            this.toolStripButton1.Size = new System.Drawing.Size(37, 24);
             this.toolStripButton1.Text = "YouTube";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -147,7 +158,7 @@ namespace LightBrowser_2020
             this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(32, 24);
+            this.toolStripButton2.Size = new System.Drawing.Size(37, 24);
             this.toolStripButton2.Text = "Wikipedia";
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
@@ -156,7 +167,7 @@ namespace LightBrowser_2020
             this.toolStripSeparator1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.toolStripSeparator1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(32, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(37, 6);
             // 
             // toolStripButton3
             // 
@@ -164,9 +175,19 @@ namespace LightBrowser_2020
             this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
             this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(32, 24);
+            this.toolStripButton3.Size = new System.Drawing.Size(37, 24);
             this.toolStripButton3.Text = "Google";
             this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
+            // 
+            // toolStripButton5
+            // 
+            this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
+            this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton5.Name = "toolStripButton5";
+            this.toolStripButton5.Size = new System.Drawing.Size(37, 24);
+            this.toolStripButton5.Text = "Startpage";
+            this.toolStripButton5.Click += new System.EventHandler(this.toolStripButton5_Click);
             // 
             // toolStripButton4
             // 
@@ -174,14 +195,14 @@ namespace LightBrowser_2020
             this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
             this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(32, 24);
+            this.toolStripButton4.Size = new System.Drawing.Size(37, 24);
             this.toolStripButton4.Text = "Ecosia";
             this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(32, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(37, 6);
             // 
             // toolStripDropDownButton1
             // 
@@ -192,7 +213,7 @@ namespace LightBrowser_2020
             this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(32, 24);
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(37, 24);
             this.toolStripDropDownButton1.Text = "Page";
             // 
             // saveToolStripMenuItem
@@ -209,7 +230,67 @@ namespace LightBrowser_2020
             this.printToolStripMenuItem.Text = "Print";
             this.printToolStripMenuItem.Click += new System.EventHandler(this.printToolStripMenuItem_Click);
             // 
-            // Form1
+            // toolStripSplitButton1
+            // 
+            this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.revertToolStripMenuItem,
+            this.zoomLevel05ToolStripMenuItem,
+            this.zoomLevel1ToolStripMenuItem,
+            this.zoomLevel2ToolStripMenuItem,
+            this.zoomLevel3ToolStripMenuItem});
+            this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
+            this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripSplitButton1.Name = "toolStripSplitButton1";
+            this.toolStripSplitButton1.Size = new System.Drawing.Size(37, 24);
+            this.toolStripSplitButton1.Text = "Zoom";
+            // 
+            // revertToolStripMenuItem
+            // 
+            this.revertToolStripMenuItem.Name = "revertToolStripMenuItem";
+            this.revertToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
+            this.revertToolStripMenuItem.Text = "Revert";
+            this.revertToolStripMenuItem.Click += new System.EventHandler(this.revertToolStripMenuItem_Click);
+            // 
+            // zoomLevel05ToolStripMenuItem
+            // 
+            this.zoomLevel05ToolStripMenuItem.Name = "zoomLevel05ToolStripMenuItem";
+            this.zoomLevel05ToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
+            this.zoomLevel05ToolStripMenuItem.Text = "Zoom Level: 0.5";
+            this.zoomLevel05ToolStripMenuItem.Click += new System.EventHandler(this.zoomLevel05ToolStripMenuItem_Click);
+            // 
+            // zoomLevel1ToolStripMenuItem
+            // 
+            this.zoomLevel1ToolStripMenuItem.Name = "zoomLevel1ToolStripMenuItem";
+            this.zoomLevel1ToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
+            this.zoomLevel1ToolStripMenuItem.Text = "Zoom Level: 1";
+            this.zoomLevel1ToolStripMenuItem.Click += new System.EventHandler(this.zoomLevel1ToolStripMenuItem_Click);
+            // 
+            // zoomLevel2ToolStripMenuItem
+            // 
+            this.zoomLevel2ToolStripMenuItem.Name = "zoomLevel2ToolStripMenuItem";
+            this.zoomLevel2ToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
+            this.zoomLevel2ToolStripMenuItem.Text = "Zoom Level: 2";
+            this.zoomLevel2ToolStripMenuItem.Click += new System.EventHandler(this.zoomLevel2ToolStripMenuItem_Click);
+            // 
+            // zoomLevel3ToolStripMenuItem
+            // 
+            this.zoomLevel3ToolStripMenuItem.Name = "zoomLevel3ToolStripMenuItem";
+            this.zoomLevel3ToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
+            this.zoomLevel3ToolStripMenuItem.Text = "Zoom Level: 3";
+            this.zoomLevel3ToolStripMenuItem.Click += new System.EventHandler(this.zoomLevel3ToolStripMenuItem_Click);
+            // 
+            // toolStripButton6
+            // 
+            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
+            this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton6.Name = "toolStripButton6";
+            this.toolStripButton6.Size = new System.Drawing.Size(37, 24);
+            this.toolStripButton6.Text = "DuckDuckGo";
+            this.toolStripButton6.Click += new System.EventHandler(this.toolStripButton6_Click);
+            // 
+            // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -223,9 +304,9 @@ namespace LightBrowser_2020
             this.Controls.Add(this.textBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "MainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = " LightBrowser 2020.05.01";
+            this.Text = " LightBrowser 2020.05.02";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.toolStrip1.ResumeLayout(false);
@@ -253,6 +334,14 @@ namespace LightBrowser_2020
         private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem printToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton1;
+        private System.Windows.Forms.ToolStripMenuItem zoomLevel1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem zoomLevel2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem revertToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem zoomLevel05ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem zoomLevel3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripButton toolStripButton5;
+        private System.Windows.Forms.ToolStripButton toolStripButton6;
     }
 }
 
