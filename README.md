@@ -16,7 +16,8 @@ to render the webpage. Without it, this project would've been impossible.
 * **One-Tab-Browsing** for low memory usage
 * Easy and light user interface
 * **WebGL** and **JS** support
-* **PDF** and **HTML** Drag-and-drop support
+* **PDF/HTML** and **Video/Audio** Drag-and-drop support
+* Download functionality
 * based on **Chrome 81** on Version 2020.05
 
 # Minimum requirements
