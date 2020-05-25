@@ -42,6 +42,7 @@ namespace LightBrowser_2020
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
@@ -53,7 +54,6 @@ namespace LightBrowser_2020
             this.zoomLevel1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zoomLevel2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zoomLevel3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,12 +62,12 @@ namespace LightBrowser_2020
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.textBox1.Location = new System.Drawing.Point(159, 4);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(895, 29);
+            this.textBox1.Size = new System.Drawing.Size(895, 30);
             this.textBox1.TabIndex = 0;
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1KeyPress);
             // 
@@ -89,7 +89,7 @@ namespace LightBrowser_2020
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.ForeColor = System.Drawing.Color.Transparent;
             this.btnBack.Image = ((System.Drawing.Image)(resources.GetObject("btnBack.Image")));
-            this.btnBack.Location = new System.Drawing.Point(38, 0);
+            this.btnBack.Location = new System.Drawing.Point(43, 0);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(44, 41);
             this.btnBack.TabIndex = 3;
@@ -102,7 +102,7 @@ namespace LightBrowser_2020
             this.btnFwd.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFwd.ForeColor = System.Drawing.Color.LightSlateGray;
             this.btnFwd.Image = ((System.Drawing.Image)(resources.GetObject("btnFwd.Image")));
-            this.btnFwd.Location = new System.Drawing.Point(88, 0);
+            this.btnFwd.Location = new System.Drawing.Point(93, 0);
             this.btnFwd.Name = "btnFwd";
             this.btnFwd.Size = new System.Drawing.Size(43, 41);
             this.btnFwd.TabIndex = 4;
@@ -188,6 +188,16 @@ namespace LightBrowser_2020
             this.toolStripButton5.Size = new System.Drawing.Size(37, 24);
             this.toolStripButton5.Text = "Startpage";
             this.toolStripButton5.Click += new System.EventHandler(this.toolStripButton5_Click);
+            // 
+            // toolStripButton6
+            // 
+            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
+            this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton6.Name = "toolStripButton6";
+            this.toolStripButton6.Size = new System.Drawing.Size(37, 24);
+            this.toolStripButton6.Text = "DuckDuckGo";
+            this.toolStripButton6.Click += new System.EventHandler(this.toolStripButton6_Click);
             // 
             // toolStripButton4
             // 
@@ -279,16 +289,6 @@ namespace LightBrowser_2020
             this.zoomLevel3ToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
             this.zoomLevel3ToolStripMenuItem.Text = "Zoom Level: 3";
             this.zoomLevel3ToolStripMenuItem.Click += new System.EventHandler(this.zoomLevel3ToolStripMenuItem_Click);
-            // 
-            // toolStripButton6
-            // 
-            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
-            this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton6.Name = "toolStripButton6";
-            this.toolStripButton6.Size = new System.Drawing.Size(37, 24);
-            this.toolStripButton6.Text = "DuckDuckGo";
-            this.toolStripButton6.Click += new System.EventHandler(this.toolStripButton6_Click);
             // 
             // MainWindow
             // 

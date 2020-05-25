@@ -125,6 +125,5 @@ namespace LightBrowser_2020
         {
             browser.Load("www.duckduckgo.com");
         }
-
     }
 }
