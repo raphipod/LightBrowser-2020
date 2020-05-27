@@ -62,13 +62,15 @@ namespace LightBrowser_2020
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox1.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textBox1.Location = new System.Drawing.Point(159, 4);
+            this.textBox1.Location = new System.Drawing.Point(174, 4);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(895, 30);
+            this.textBox1.Size = new System.Drawing.Size(889, 29);
             this.textBox1.TabIndex = 0;
+            this.textBox1.TabStop = false;
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1KeyPress);
             // 
             // pContainer
@@ -112,7 +114,7 @@ namespace LightBrowser_2020
             // btnReload
             // 
             this.btnReload.BackColor = System.Drawing.Color.Silver;
-            this.btnReload.Location = new System.Drawing.Point(137, 4);
+            this.btnReload.Location = new System.Drawing.Point(142, 4);
             this.btnReload.Name = "btnReload";
             this.btnReload.Size = new System.Drawing.Size(25, 29);
             this.btnReload.TabIndex = 6;
@@ -122,7 +124,7 @@ namespace LightBrowser_2020
             // 
             // toolStrip1
             // 
-            this.toolStrip1.BackColor = System.Drawing.Color.Silver;
+            this.toolStrip1.BackColor = System.Drawing.Color.DimGray;
             this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Left;
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -306,7 +308,7 @@ namespace LightBrowser_2020
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = " LightBrowser 2020.05.02";
+            this.Text = " LightBrowser 2020.06";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.toolStrip1.ResumeLayout(false);
