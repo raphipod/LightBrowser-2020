@@ -78,10 +78,10 @@ namespace LightBrowser_2020
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pContainer.AutoSize = true;
-            this.pContainer.Location = new System.Drawing.Point(30, 41);
+            this.pContainer.Location = new System.Drawing.Point(34, 41);
             this.pContainer.Margin = new System.Windows.Forms.Padding(4);
             this.pContainer.Name = "pContainer";
-            this.pContainer.Size = new System.Drawing.Size(1037, 515);
+            this.pContainer.Size = new System.Drawing.Size(1033, 515);
             this.pContainer.TabIndex = 2;
             // 
             // btnBack
@@ -123,7 +123,7 @@ namespace LightBrowser_2020
             // 
             // toolStrip1
             // 
-            this.toolStrip1.BackColor = System.Drawing.Color.DimGray;
+            this.toolStrip1.BackColor = System.Drawing.Color.DarkGray;
             this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Left;
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
