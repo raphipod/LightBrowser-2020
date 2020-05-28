@@ -42,7 +42,6 @@ namespace LightBrowser_2020
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
@@ -133,7 +132,6 @@ namespace LightBrowser_2020
             this.toolStripSeparator1,
             this.toolStripButton3,
             this.toolStripButton5,
-            this.toolStripButton6,
             this.toolStripButton4,
             this.toolStripSeparator2,
             this.toolStripDropDownButton1,
@@ -190,16 +188,6 @@ namespace LightBrowser_2020
             this.toolStripButton5.Size = new System.Drawing.Size(37, 24);
             this.toolStripButton5.Text = "Startpage";
             this.toolStripButton5.Click += new System.EventHandler(this.toolStripButton5_Click);
-            // 
-            // toolStripButton6
-            // 
-            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
-            this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton6.Name = "toolStripButton6";
-            this.toolStripButton6.Size = new System.Drawing.Size(37, 24);
-            this.toolStripButton6.Text = "DuckDuckGo";
-            this.toolStripButton6.Click += new System.EventHandler(this.toolStripButton6_Click);
             // 
             // toolStripButton4
             // 
@@ -343,7 +331,6 @@ namespace LightBrowser_2020
         private System.Windows.Forms.ToolStripMenuItem zoomLevel05ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem zoomLevel3ToolStripMenuItem;
         private System.Windows.Forms.ToolStripButton toolStripButton5;
-        private System.Windows.Forms.ToolStripButton toolStripButton6;
     }
 }
 

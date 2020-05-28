@@ -121,10 +121,5 @@ namespace LightBrowser_2020
         {
             browser.Load("www.startpage.com");
         }
-
-        private void toolStripButton6_Click(object sender, EventArgs e)
-        {
-            browser.Load("www.duckduckgo.com");
-        }
     }
 }
