@@ -22,7 +22,7 @@ namespace LightBrowser_2020
         {
             browser = new ChromiumWebBrowser(textBox1.Text);
             browser.Dock = DockStyle.Fill;
-            browser.Load("google.com");
+            browser.Load("duckduckgo.com");
             browser.DownloadHandler = new DownloadHandler();
             this.pContainer.Controls.Add(browser);
 
