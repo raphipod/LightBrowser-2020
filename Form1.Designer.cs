@@ -60,14 +60,14 @@ namespace LightBrowser_2020
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.BackColor = System.Drawing.Color.White;
+            this.textBox1.BackColor = System.Drawing.Color.Gray;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.textBox1.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold);
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBox1.Location = new System.Drawing.Point(174, 4);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(889, 29);
+            this.textBox1.Size = new System.Drawing.Size(880, 29);
             this.textBox1.TabIndex = 0;
             this.textBox1.TabStop = false;
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1KeyPress);
@@ -87,12 +87,14 @@ namespace LightBrowser_2020
             // btnBack
             // 
             this.btnBack.BackColor = System.Drawing.Color.Silver;
+            this.btnBack.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.ForeColor = System.Drawing.Color.Transparent;
             this.btnBack.Image = ((System.Drawing.Image)(resources.GetObject("btnBack.Image")));
             this.btnBack.Location = new System.Drawing.Point(43, 0);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(44, 41);
+            this.btnBack.Size = new System.Drawing.Size(33, 38);
             this.btnBack.TabIndex = 3;
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
@@ -100,12 +102,14 @@ namespace LightBrowser_2020
             // btnFwd
             // 
             this.btnFwd.BackColor = System.Drawing.Color.Silver;
+            this.btnFwd.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnFwd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFwd.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFwd.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.btnFwd.ForeColor = System.Drawing.Color.Transparent;
             this.btnFwd.Image = ((System.Drawing.Image)(resources.GetObject("btnFwd.Image")));
-            this.btnFwd.Location = new System.Drawing.Point(93, 0);
+            this.btnFwd.Location = new System.Drawing.Point(82, 0);
             this.btnFwd.Name = "btnFwd";
-            this.btnFwd.Size = new System.Drawing.Size(43, 41);
+            this.btnFwd.Size = new System.Drawing.Size(40, 38);
             this.btnFwd.TabIndex = 4;
             this.btnFwd.UseVisualStyleBackColor = false;
             this.btnFwd.Click += new System.EventHandler(this.btnFwd_Click);
@@ -113,17 +117,20 @@ namespace LightBrowser_2020
             // btnReload
             // 
             this.btnReload.BackColor = System.Drawing.Color.Silver;
-            this.btnReload.Location = new System.Drawing.Point(142, 4);
+            this.btnReload.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnReload.BackgroundImage")));
+            this.btnReload.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnReload.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnReload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReload.Location = new System.Drawing.Point(124, 1);
             this.btnReload.Name = "btnReload";
-            this.btnReload.Size = new System.Drawing.Size(25, 29);
+            this.btnReload.Size = new System.Drawing.Size(43, 37);
             this.btnReload.TabIndex = 6;
-            this.btnReload.Text = "R";
             this.btnReload.UseVisualStyleBackColor = false;
             this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
             // 
             // toolStrip1
             // 
-            this.toolStrip1.BackColor = System.Drawing.Color.DarkGray;
+            this.toolStrip1.BackColor = System.Drawing.Color.Gray;
             this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Left;
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {

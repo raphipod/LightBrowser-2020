@@ -38,7 +38,7 @@ namespace LightBrowser_2020
         {
             if (e.KeyChar == (char)13)
             {
-                browser.Load("https://duckduckgo.com/?q=" + textBox1.Text);
+                browser.Load(textBox1.Text);
             }
             
         }
