@@ -3,13 +3,14 @@
 
 **Light browsing, redefined.**
 
-Check it out on itch.io! https://upbite.itch.io/lightbrowser-2020
-
+Check out the newest version on itch.io! https://upbite.itch.io/lightbrowser-2020
+All older releases are available on GitHub.
 
 # Based on the powerful Chromium platform
 
 This browser uses [**CefSharp**](https://github.com/cefsharp/CefSharp)
-to render the webpage. Without it, this project would've been impossible.
+to render the webpage, which is also used on the Chromium-webbrowser.
+Without it, this project would've been impossible.
 
 # Features
 
@@ -18,14 +19,15 @@ to render the webpage. Without it, this project would've been impossible.
 * **WebGL** and **JS** support
 * **PDF/HTML** and **Video/Audio** Drag-and-drop support
 * Download functionality
-* based on **Chrome 81** on Version 2020.05
+* based on **Chrome 83** on Version 2020.07
 
 # Minimum requirements
 
+* **OS:** WinVista - Win10 (XP is not supported anymore)
 * **Processor:** Intel Core 2 Duo or AMD Athlon 64 (dual core), anything newer is fine.
 * **RAM:** 512 MB to 1 GB
 * **Disk space:** ~ 200 MB
-* **32-bit** operating system
+* **32-bit** operating system (also works on 64-bit machines)
 
 # Who should use this browser?
 
