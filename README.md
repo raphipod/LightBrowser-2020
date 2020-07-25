@@ -3,8 +3,7 @@
 
 **Light browsing, redefined.**
 
-Check out the newest version on itch.io! https://upbite.itch.io/lightbrowser-2020
-All older releases are available on GitHub.
+Check out the newest version on itch.io! https://upbite.itch.io/lightbrowser-2020. All older releases are available on GitHub.
 
 # Based on the powerful Chromium platform
 
