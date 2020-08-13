@@ -4,6 +4,8 @@ using CefSharp.WinForms;
 using CefSharp;
 using CefSharp.Example;
 using CefSharp.Example.Handlers;
+using LightBrowser_2020.Properties;
+using System.Drawing.Text;
 
 namespace LightBrowser_2020
 {
@@ -20,6 +22,12 @@ namespace LightBrowser_2020
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            CefSettings settings = new CefSettings();
+
+            settings.CefCommandLineArgs.Add("enable-gpu", "1");
+
+            Cef.Initialize(settings);
+
             browser = new ChromiumWebBrowser(textBox1.Text);
             browser.Dock = DockStyle.Fill;
             browser.Load("duckduckgo.com");
@@ -32,6 +40,7 @@ namespace LightBrowser_2020
                 WebGl = CefState.Enabled,
                 WebSecurity = CefState.Enabled,
             };
+
         }
 
         private void textBox1KeyPress(object sender, KeyPressEventArgs e)
@@ -59,21 +68,29 @@ namespace LightBrowser_2020
         }
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
+            browser.Stop();
+            textBox1.Text = "www.youtube.com";
             browser.Load("www.youtube.com");
         }
 
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
+            browser.Stop();
+            textBox1.Text = "www.wikipedia.com";
             browser.Load("www.wikipedia.com");
         }
 
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
+            browser.Stop();
+            textBox1.Text = "www.google.com";
             browser.Load("www.google.com");
         }
 
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
+            browser.Stop();
+            textBox1.Text = "www.ecosia.org";
             browser.Load("www.ecosia.org");
         }
 
