@@ -25,6 +25,7 @@ namespace LightBrowser_2020
             CefSettings settings = new CefSettings();
 
             settings.CefCommandLineArgs.Add("enable-gpu", "1");
+            settings.CefCommandLineArgs.Add("start-in-incognito", "1");
 
             Cef.Initialize(settings);
 
@@ -69,28 +70,28 @@ namespace LightBrowser_2020
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             browser.Stop();
-            textBox1.Text = "www.youtube.com";
+            textBox1.Text = "https://www.youtube.com";
             browser.Load("www.youtube.com");
         }
 
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
             browser.Stop();
-            textBox1.Text = "www.wikipedia.com";
+            textBox1.Text = "https://www.wikipedia.com";
             browser.Load("www.wikipedia.com");
         }
 
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
             browser.Stop();
-            textBox1.Text = "www.google.com";
+            textBox1.Text = "https://www.google.com";
             browser.Load("www.google.com");
         }
 
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
             browser.Stop();
-            textBox1.Text = "www.ecosia.org";
+            textBox1.Text = "https://www.ecosia.org";
             browser.Load("www.ecosia.org");
         }
 
@@ -136,7 +137,16 @@ namespace LightBrowser_2020
 
         private void toolStripButton5_Click(object sender, EventArgs e)
         {
+            browser.Stop();
+            textBox1.Text = "https://www.startpage.com";
             browser.Load("www.startpage.com");
+        }
+
+        private void toolStripButton6_Click(object sender, EventArgs e)
+        {
+            browser.Stop();
+            textBox1.Text = "https://archive.org/index.php";
+            browser.Load("https://archive.org/index.php");
         }
     }
 }
