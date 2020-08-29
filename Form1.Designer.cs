@@ -53,6 +53,7 @@ namespace LightBrowser_2020
             this.zoomLevel1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zoomLevel2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zoomLevel3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,6 +62,7 @@ namespace LightBrowser_2020
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.BackColor = System.Drawing.Color.White;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.textBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -77,9 +79,9 @@ namespace LightBrowser_2020
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pContainer.AutoSize = true;
-            this.pContainer.Location = new System.Drawing.Point(26, 33);
+            this.pContainer.Location = new System.Drawing.Point(32, 33);
             this.pContainer.Name = "pContainer";
-            this.pContainer.Size = new System.Drawing.Size(775, 418);
+            this.pContainer.Size = new System.Drawing.Size(769, 418);
             this.pContainer.TabIndex = 2;
             // 
             // btnBack
@@ -136,6 +138,7 @@ namespace LightBrowser_2020
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1,
+            this.toolStripButton6,
             this.toolStripButton2,
             this.toolStripSeparator1,
             this.toolStripButton3,
@@ -288,6 +291,16 @@ namespace LightBrowser_2020
             this.zoomLevel3ToolStripMenuItem.Text = "Zoom Level: 3";
             this.zoomLevel3ToolStripMenuItem.Click += new System.EventHandler(this.zoomLevel3ToolStripMenuItem_Click);
             // 
+            // toolStripButton6
+            // 
+            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
+            this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton6.Name = "toolStripButton6";
+            this.toolStripButton6.Size = new System.Drawing.Size(34, 24);
+            this.toolStripButton6.Text = "InternetArchive";
+            this.toolStripButton6.Click += new System.EventHandler(this.toolStripButton6_Click);
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -303,7 +316,7 @@ namespace LightBrowser_2020
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = " LightBrowser 2020.08";
+            this.Text = " LightBrowser 2020.09";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.toolStrip1.ResumeLayout(false);
@@ -338,6 +351,7 @@ namespace LightBrowser_2020
         private System.Windows.Forms.ToolStripMenuItem zoomLevel05ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem zoomLevel3ToolStripMenuItem;
         private System.Windows.Forms.ToolStripButton toolStripButton5;
+        private System.Windows.Forms.ToolStripButton toolStripButton6;
     }
 }
 
