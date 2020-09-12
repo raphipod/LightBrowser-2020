@@ -23,8 +23,8 @@ Without it, this project would've been impossible.
 
 # Minimum requirements
 
-* **OS:** WinVista - Win10 (XP is not supported anymore) -> 32- or 64-bit
-* **Processor:** Intel Core 2 Duo or AMD Athlon 64 (dual core), anything newer is fine.
+* **OS:** WinVista x86/x86_64 - Win10 x86/x86_64 (XP is not supported anymore)
+* **Processor:** Intel Core 2 Duo or AMD Athlon 64 (dual core), anything newer is fine. (Application is 32-bit only)
 * **RAM:** 512 MB to 1 GB
 * **Disk space:** ~ 200 MB
 
