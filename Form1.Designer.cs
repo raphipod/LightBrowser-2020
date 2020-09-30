@@ -54,6 +54,7 @@ namespace LightBrowser_2020
             this.zoomLevel1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zoomLevel2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zoomLevel3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -92,7 +93,7 @@ namespace LightBrowser_2020
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.ForeColor = System.Drawing.Color.Transparent;
             this.btnBack.Image = ((System.Drawing.Image)(resources.GetObject("btnBack.Image")));
-            this.btnBack.Location = new System.Drawing.Point(42, 4);
+            this.btnBack.Location = new System.Drawing.Point(42, 3);
             this.btnBack.Margin = new System.Windows.Forms.Padding(2);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(25, 26);
@@ -108,7 +109,7 @@ namespace LightBrowser_2020
             this.btnFwd.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFwd.ForeColor = System.Drawing.Color.Transparent;
             this.btnFwd.Image = ((System.Drawing.Image)(resources.GetObject("btnFwd.Image")));
-            this.btnFwd.Location = new System.Drawing.Point(71, 4);
+            this.btnFwd.Location = new System.Drawing.Point(71, 3);
             this.btnFwd.Margin = new System.Windows.Forms.Padding(2);
             this.btnFwd.Name = "btnFwd";
             this.btnFwd.Size = new System.Drawing.Size(25, 26);
@@ -146,7 +147,8 @@ namespace LightBrowser_2020
             this.toolStripButton4,
             this.toolStripSeparator2,
             this.toolStripDropDownButton1,
-            this.toolStripSplitButton1});
+            this.toolStripSplitButton1,
+            this.findButton});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(37, 450);
@@ -301,6 +303,7 @@ namespace LightBrowser_2020
             this.zoomLevel3ToolStripMenuItem.Text = "Zoom Level: 3";
             this.zoomLevel3ToolStripMenuItem.Click += new System.EventHandler(this.zoomLevel3ToolStripMenuItem_Click);
             // 
+
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -352,6 +355,7 @@ namespace LightBrowser_2020
         private System.Windows.Forms.ToolStripMenuItem zoomLevel3ToolStripMenuItem;
         private System.Windows.Forms.ToolStripButton toolStripButton5;
         private System.Windows.Forms.ToolStripButton toolStripButton6;
+        private System.Windows.Forms.ToolStripButton findButton;
     }
 }
 
