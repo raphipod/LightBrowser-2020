@@ -137,7 +137,6 @@
     </Compile>
     <None Include=".editorconfig" />
     <None Include="app.manifest" />
-    <None Include="LightBrowser 2020_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

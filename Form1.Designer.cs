@@ -54,7 +54,7 @@ namespace LightBrowser_2020
             this.zoomLevel1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zoomLevel2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zoomLevel3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.findButton = new System.Windows.Forms.ToolStripButton();
+
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -303,15 +303,7 @@ namespace LightBrowser_2020
             this.zoomLevel3ToolStripMenuItem.Text = "Zoom Level: 3";
             this.zoomLevel3ToolStripMenuItem.Click += new System.EventHandler(this.zoomLevel3ToolStripMenuItem_Click);
             // 
-            // findButton
-            // 
-            this.findButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.findButton.Image = ((System.Drawing.Image)(resources.GetObject("findButton.Image")));
-            this.findButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.findButton.Name = "findButton";
-            this.findButton.Size = new System.Drawing.Size(34, 24);
-            this.findButton.Text = "toolStripButton7";
-            // 
+
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
