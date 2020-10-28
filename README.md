@@ -19,7 +19,7 @@ Without it, this project would've been impossible.
 * **WebGL** and **JS** support
 * **PDF/HTML** and **Video/Audio** Drag-and-drop support
 * Download functionality
-* based on **Chrome 83** on Version 2020.07
+* based on **Chrome 84** on Version 2020.09
 
 # Minimum requirements
 
