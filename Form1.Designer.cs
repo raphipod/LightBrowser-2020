@@ -68,7 +68,7 @@ namespace LightBrowser_2020
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.textBox1.Location = new System.Drawing.Point(166, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(622, 26);
+            this.textBox1.Size = new System.Drawing.Size(622, 30);
             this.textBox1.TabIndex = 0;
             this.textBox1.TabStop = false;
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1KeyPress);
@@ -79,9 +79,9 @@ namespace LightBrowser_2020
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pContainer.AutoSize = true;
-            this.pContainer.Location = new System.Drawing.Point(32, 33);
+            this.pContainer.Location = new System.Drawing.Point(32, 38);
             this.pContainer.Name = "pContainer";
-            this.pContainer.Size = new System.Drawing.Size(769, 418);
+            this.pContainer.Size = new System.Drawing.Size(769, 413);
             this.pContainer.TabIndex = 2;
             // 
             // btnBack
@@ -149,7 +149,7 @@ namespace LightBrowser_2020
             this.toolStripSplitButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(37, 450);
+            this.toolStrip1.Size = new System.Drawing.Size(40, 450);
             this.toolStrip1.TabIndex = 11;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -159,7 +159,7 @@ namespace LightBrowser_2020
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(34, 24);
+            this.toolStripButton1.Size = new System.Drawing.Size(37, 24);
             this.toolStripButton1.Text = "YouTube";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -169,7 +169,7 @@ namespace LightBrowser_2020
             this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
             this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton6.Name = "toolStripButton6";
-            this.toolStripButton6.Size = new System.Drawing.Size(34, 24);
+            this.toolStripButton6.Size = new System.Drawing.Size(37, 24);
             this.toolStripButton6.Text = "InternetArchive";
             this.toolStripButton6.Click += new System.EventHandler(this.toolStripButton6_Click);
             // 
@@ -179,7 +179,7 @@ namespace LightBrowser_2020
             this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(34, 24);
+            this.toolStripButton2.Size = new System.Drawing.Size(37, 24);
             this.toolStripButton2.Text = "Wikipedia";
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
@@ -188,7 +188,7 @@ namespace LightBrowser_2020
             this.toolStripSeparator1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.toolStripSeparator1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(34, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(37, 6);
             // 
             // toolStripButton3
             // 
@@ -196,7 +196,7 @@ namespace LightBrowser_2020
             this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
             this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(34, 24);
+            this.toolStripButton3.Size = new System.Drawing.Size(37, 24);
             this.toolStripButton3.Text = "Google";
             this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
@@ -206,7 +206,7 @@ namespace LightBrowser_2020
             this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
             this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton5.Name = "toolStripButton5";
-            this.toolStripButton5.Size = new System.Drawing.Size(34, 24);
+            this.toolStripButton5.Size = new System.Drawing.Size(37, 24);
             this.toolStripButton5.Text = "Startpage";
             this.toolStripButton5.Click += new System.EventHandler(this.toolStripButton5_Click);
             // 
@@ -216,14 +216,14 @@ namespace LightBrowser_2020
             this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
             this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(34, 24);
+            this.toolStripButton4.Size = new System.Drawing.Size(37, 24);
             this.toolStripButton4.Text = "Ecosia";
             this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(34, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(37, 6);
             // 
             // toolStripDropDownButton1
             // 
@@ -234,20 +234,20 @@ namespace LightBrowser_2020
             this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(34, 24);
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(37, 24);
             this.toolStripDropDownButton1.Text = "Page";
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(173, 26);
             this.saveToolStripMenuItem.Text = "View Source";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // printToolStripMenuItem
             // 
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(173, 26);
             this.printToolStripMenuItem.Text = "Print";
             this.printToolStripMenuItem.Click += new System.EventHandler(this.printToolStripMenuItem_Click);
             // 
@@ -263,41 +263,41 @@ namespace LightBrowser_2020
             this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
-            this.toolStripSplitButton1.Size = new System.Drawing.Size(34, 24);
+            this.toolStripSplitButton1.Size = new System.Drawing.Size(37, 24);
             this.toolStripSplitButton1.Text = "Zoom";
             // 
             // revertToolStripMenuItem
             // 
             this.revertToolStripMenuItem.Name = "revertToolStripMenuItem";
-            this.revertToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.revertToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
             this.revertToolStripMenuItem.Text = "Revert";
             this.revertToolStripMenuItem.Click += new System.EventHandler(this.revertToolStripMenuItem_Click);
             // 
             // zoomLevel05ToolStripMenuItem
             // 
             this.zoomLevel05ToolStripMenuItem.Name = "zoomLevel05ToolStripMenuItem";
-            this.zoomLevel05ToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.zoomLevel05ToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
             this.zoomLevel05ToolStripMenuItem.Text = "Zoom Level: 0.5";
             this.zoomLevel05ToolStripMenuItem.Click += new System.EventHandler(this.zoomLevel05ToolStripMenuItem_Click);
             // 
             // zoomLevel1ToolStripMenuItem
             // 
             this.zoomLevel1ToolStripMenuItem.Name = "zoomLevel1ToolStripMenuItem";
-            this.zoomLevel1ToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.zoomLevel1ToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
             this.zoomLevel1ToolStripMenuItem.Text = "Zoom Level: 1";
             this.zoomLevel1ToolStripMenuItem.Click += new System.EventHandler(this.zoomLevel1ToolStripMenuItem_Click);
             // 
             // zoomLevel2ToolStripMenuItem
             // 
             this.zoomLevel2ToolStripMenuItem.Name = "zoomLevel2ToolStripMenuItem";
-            this.zoomLevel2ToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.zoomLevel2ToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
             this.zoomLevel2ToolStripMenuItem.Text = "Zoom Level: 2";
             this.zoomLevel2ToolStripMenuItem.Click += new System.EventHandler(this.zoomLevel2ToolStripMenuItem_Click);
             // 
             // zoomLevel3ToolStripMenuItem
             // 
             this.zoomLevel3ToolStripMenuItem.Name = "zoomLevel3ToolStripMenuItem";
-            this.zoomLevel3ToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.zoomLevel3ToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
             this.zoomLevel3ToolStripMenuItem.Text = "Zoom Level: 3";
             this.zoomLevel3ToolStripMenuItem.Click += new System.EventHandler(this.zoomLevel3ToolStripMenuItem_Click);
             // 
