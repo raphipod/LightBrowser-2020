@@ -37,9 +37,10 @@ namespace LightBrowser_2020
 
             BrowserSettings = new BrowserSettings()
             {
-                Javascript = CefState.Enabled,  
+                Javascript = CefState.Enabled,
                 WebGl = CefState.Enabled,
                 WebSecurity = CefState.Enabled,
+                ApplicationCache = CefState.Disabled,
             };
 
         }
@@ -50,7 +51,7 @@ namespace LightBrowser_2020
             {
                 browser.Load(textBox1.Text);
             }
-            
+
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -67,86 +68,16 @@ namespace LightBrowser_2020
         {
             browser.Reload();
         }
-        private void toolStripButton1_Click(object sender, EventArgs e)
-        {
-            browser.Stop();
-            textBox1.Text = "https://www.youtube.com";
-            browser.Load("www.youtube.com");
-        }
 
-        private void toolStripButton2_Click(object sender, EventArgs e)
-        {
-            browser.Stop();
-            textBox1.Text = "https://www.wikipedia.com";
-            browser.Load("www.wikipedia.com");
-        }
+        // Shortcut-based controls
 
-        private void toolStripButton3_Click(object sender, EventArgs e)
+        private void MainWindow_KeyDown(object sender, KeyEventArgs e)
         {
-            browser.Stop();
-            textBox1.Text = "https://www.google.com";
-            browser.Load("www.google.com");
-        }
-
-        private void toolStripButton4_Click(object sender, EventArgs e)
-        {
-            browser.Stop();
-            textBox1.Text = "https://www.ecosia.org";
-            browser.Load("www.ecosia.org");
-        }
-
-        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            browser.ViewSource();
-        }
-
-        private void printToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            browser.Print();
-        }
-
-        private void testToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            browser.SetZoomLevel(1);
-        }
-
-        private void zoomLevel1ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            browser.SetZoomLevel(1);
-        }
-
-        private void zoomLevel2ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            browser.SetZoomLevel(2);
-        }
-
-        private void zoomLevel3ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            browser.SetZoomLevel(3);
-        }
-
-        private void zoomLevel05ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            browser.SetZoomLevel(0.5);
-        }
-
-        private void revertToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            browser.SetZoomLevel(0.0);
-        }
-
-        private void toolStripButton5_Click(object sender, EventArgs e)
-        {
-            browser.Stop();
-            textBox1.Text = "https://www.startpage.com";
-            browser.Load("www.startpage.com");
-        }
-
-        private void toolStripButton6_Click(object sender, EventArgs e)
-        {
-            browser.Stop();
-            textBox1.Text = "https://archive.org/index.php";
-            browser.Load("https://archive.org/index.php");
+            if (e.Modifiers == Keys.Control && e.KeyCode == Keys.P)
+            {
+                browser.Print();
+            }
         }
     }
 }
+        
