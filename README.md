@@ -1,3 +1,5 @@
+THIS APP IS NOT SUPPORTED ANYMORE AND WONT RECIEVE UPDATES!
+
 # LightBrowser-2020
 🌎 An open-source web browser built with CefSharp.
 
